@@ -58,7 +58,6 @@ jobs:
         git apply ${GITHUB_WORKSPACE}/of_patch/early-translation.patch
         git apply ${GITHUB_WORKSPACE}/of_patch/fastbootd-optimize.patch
         git apply ${GITHUB_WORKSPACE}/of_patch/Backup_Display_Name.patch
-        git apply ${GITHUB_WORKSPACE}/of_patch/5743.patch
         git apply ${GITHUB_WORKSPACE}/of_patch/DST.patch
         git apply ${GITHUB_WORKSPACE}/of_patch/settings.patch
         git apply ${GITHUB_WORKSPACE}/of_patch/AVB20.patch

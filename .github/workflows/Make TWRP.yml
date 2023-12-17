@@ -64,8 +64,6 @@ jobs:
         git apply ${GITHUB_WORKSPACE}/of_patch/Set_FBE_Status.patch
         git apply ${GITHUB_WORKSPACE}/of_patch/Unmount-data.patch
         source build/envsetup.sh
-        repopick 5675
-        repopick 5743
     - name: Clone Device Tree
       run: |
         cd ${GITHUB_WORKSPACE}/workspace
